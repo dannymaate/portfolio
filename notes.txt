@@ -1,2 +1,23 @@
 Consider renaming Press + Stories to something less confusing. 
 This gives off impression that you're writing newspaper articles
+
+What I did?
+create new repo on github
+git init 
+git add ...
+git commit ...
+git push -u origin main
+
+    hint: Updates were rejected because the tip of your current branch is behind
+    hint: its remote counterpart.
+
+git pull
+git push -f origin main     # forces the overwriting of remote repo
+
+future reference? 
+create github repo first before making local project
+git clone ...
+then create project inside this
+
+note to self:
+For the articles use a different type of card for variation purposes
