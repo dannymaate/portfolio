@@ -1,6 +1,5 @@
 /* Image imports */
-import sketchpad from '../assets/sketchpad2.png';
-import rockPaperScissors from '../assets/rock-paper-scissors.jpg';
+import sketchpad from '../assets/sketchpad.png';
 
 
 export const articles = [
