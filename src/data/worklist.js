@@ -7,7 +7,7 @@ export const worklist = [
     {
         id: "1",
         title: "Etch-a-sketch",
-        summary: "An adjustable dot grid that you can colour in",
+        summary: "A browser version of something between a sketchpad and an etch-a-sketch",
         image: etchSketch,
         alt: "a rainbow coloured grid",
         link: "https://dannymaate.github.io/etch-a-sketch/"

@@ -6,13 +6,17 @@ import { Link } from "react-router-dom";
 
 export default function Works() {
 		return (
-        <Template title="Works">
-            <ul>
-                {worklist.map((work) => (
-                    <ActionAreaCard title={ work.title } summary={work.summary}
-                    image={ work.image } alt={ work.alt } link={work.link} />
-                ))}
-            </ul>
+        <Template title="works" headerClass="content-heading">
+            <div className="works">
+                <ul>
+                    {worklist.map((work) => (
+                        <li>
+                            <ActionAreaCard title={ work.title } summary={work.summary}
+                            image={ work.image } alt={ work.alt } link={work.link} />
+                        </li>
+                    ))}
+                </ul>
+            </div>
         </Template>
     );
 }
