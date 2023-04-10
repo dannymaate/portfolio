@@ -1,0 +1,118 @@
+body {
+	background-color: white; 
+	color: #131B23;
+	margin: 0px;
+}
+
+.page-header, main {
+	padding: 1em 2em;
+}
+
+main {
+	height: 78vh;
+}
+
+/* Page Header */
+
+.page-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 5%;
+}
+
+.page-footer {
+	height: 5vh;
+}
+
+.page-footer ul {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 8em;
+}
+
+.page-footer ul li {
+	list-style: none;
+	margin-right: 1.5em;
+	text-decoration: none;
+	font-family: 'Rubik', sans-serif;
+}
+
+.main-menu ul {
+	display: flex;
+}
+
+.main-menu li {
+	list-style: none;
+	margin-left: 2em;
+	text-decoration: none;
+}
+
+.nav-bar-pending, .nav-bar-active, .learn-more {
+	text-decoration: none;
+	color: #131B23;
+	font-family: 'Rubik', sans-serif;
+	font-size: 18px;
+}
+
+.nav-bar-active {
+	color: #2274A5;
+}
+
+.learn-more {
+	font-size: 14px;
+	color: #2274A5;
+	padding: 0em 0em 0.5em 0.5em;
+}
+
+
+/* Main Content */
+
+main {
+	background-color: #E9F1F7;
+}
+
+.method {
+	display: flex;
+}
+
+.method > article {
+	margin-right: 4em;
+}
+
+/* Page Template */
+main .content-heading, main .home-page  {
+	margin-top: 8px;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 700;
+}
+
+main .home-page, main .home-page-subtitle {
+	text-align: left;
+	font-size: 80px;
+	padding-left: 15%;
+	padding-top: 5%;
+	margin-bottom: 0px;
+}
+
+main .home-page-subtitle {
+	font-size: 20px;
+	padding-top: 0px;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 400
+}
+
+
+/* Works */
+.works ul {
+	display: flex;
+	justify-content: center;
+}
+
+.works li {
+	list-style: none;
+	margin-left: 2em;
+}
+
