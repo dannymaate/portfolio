@@ -2,16 +2,6 @@ import React from 'react';
 import { SocialIcon } from 'react-social-icons';
 
 export default function Footer() {
-    const footerLinks = [
-        { 
-            name: "twitter",
-            url: "https://twitter.com/jaketrent",
-        },
-        { 
-            url: "https://linkedin.com/in/jaketrent" 
-        },
-    ];
-
     const styles = { height: 40, width: 40 }
     const nameStyles = { marginTop: 10 }
     return(
@@ -21,10 +11,10 @@ export default function Footer() {
                         Dan Morgan
                     </li>
                     <li>
-                        <SocialIcon style={styles} url="https://twitter.com/jaketrent" />
+                        <SocialIcon style={styles} url="https://twitter.com/dannymaate1" />
                     </li>
                     <li>
-                        <SocialIcon style={styles} url="https://linkedin.com/in/jaketrent"  />
+                        <SocialIcon style={styles} url="https://linkedin.com/in/dmorgan-dm1"  />
                     </li>
                     
                 </ul>

@@ -4,19 +4,19 @@ import App from "./pages/App";
 import Works from "./pages/Works";
 import ArticleList from "./pages/ArticleList";
 import Article from "./pages/Article";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 
 ReactDOM.render(
 	<React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path='/' element={<App />}/>
         <Route path='/works' element={<Works />}/>
         <Route path='/articles' element={<ArticleList />}/>
         <Route path='/article/:title' element={<Article />}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );
